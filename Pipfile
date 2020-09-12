@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+pep8 = "*"
+pycodestyle = "*"
+
+[packages]
+django = "*"
+django-environ = "*"
+boto3 = "*"
+django-storages = "*"
+psycopg2-binary = "*"
+django-webpack-loader = "*"
+gunicorn = "*"
+
+[requires]
+python_version = "3.8"
