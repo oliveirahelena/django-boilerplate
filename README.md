@@ -20,7 +20,7 @@ This project is configured for:
    pipenv shell
    ```
    ```
-   pipenv run python manage.py rename
+   pipenv run python manage.py rename demo your-project-name
    ```
 2. Update .vscode/settings.json with the virtual enviroment name created
 3. You will need to copy the `.settings.env` file and rename it `.env`. Inside there you can fill in the values of the environment variables, create a database and you're all good to go.
