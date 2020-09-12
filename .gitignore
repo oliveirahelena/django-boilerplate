@@ -5,6 +5,7 @@ venv
 media
 .DS_Store
 *.sqlite3
+*.db
 .env
 
 # Accept these files in the repository
