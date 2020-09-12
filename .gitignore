@@ -8,6 +8,7 @@ media
 *.db
 .env
 */node_modules
+*/bundles
 
 # Accept these files in the repository
 !.gitignore
