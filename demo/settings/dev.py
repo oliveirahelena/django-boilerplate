@@ -10,3 +10,7 @@ DATABASES = {
 
 # E-mail
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+CORS_ORIGIN_WHITELIST = (
+    'localhost:3000',
+)
