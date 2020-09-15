@@ -28,3 +28,4 @@ This project is configured for:
    ```
    pipenv run python manage.py runserver
    ```
+Obs: Em produção, alterar o manage.py para settings.prod
