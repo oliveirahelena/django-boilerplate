@@ -127,7 +127,7 @@ WEBPACK_LOADER = {
 
 CSRF_COOKIE_NAME = "csrftoken"
 
-AUTH_USER_MODEL = django.contrib.auth.models.User
+AUTH_USER_MODEL = 'django.contrib.auth.models.User'
 ACCOUNT_EMAIL_REQUIRED = False
 ACCOUNT_AUTHENTICATION_METHOD = 'username'
 ACCOUNT_EMAIL_VERIFICATION = 'none'
