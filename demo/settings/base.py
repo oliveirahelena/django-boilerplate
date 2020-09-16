@@ -23,6 +23,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'webpack_loader',
     'storages',
+    'rest_framework',
+    'rest_framework.authtoken',
     # Local
     'core',
 ]
@@ -125,3 +127,11 @@ WEBPACK_LOADER = {
 # read os.environ['REDIS_URL']
 # 'redis': env.cache('REDIS_URL')
 # }
+
+# Rest Framework
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.TokenAuthentication',
+    ),
+}
