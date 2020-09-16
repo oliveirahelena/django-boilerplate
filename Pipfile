@@ -19,6 +19,7 @@ gunicorn = "*"
 django-cors-headers = "*"
 djangorestframework = "*"
 dj-rest-auth = "*"
+django-allauth = "*"
 
 [requires]
 python_version = "3.8"
