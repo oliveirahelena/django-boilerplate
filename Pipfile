@@ -18,6 +18,7 @@ django-webpack-loader = "*"
 gunicorn = "*"
 django-cors-headers = "*"
 djangorestframework = "*"
+dj-rest-auth = "*"
 
 [requires]
 python_version = "3.8"
