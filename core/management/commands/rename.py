@@ -17,7 +17,7 @@ class Command(BaseCommand):
 
         # logic for renaming the files
 
-        files_to_rename = [f'{current_project_name}/settings/dev.py', f'{current_project_name}/settings/prod.py',
+        files_to_rename = [f'{current_project_name}/settings/dev.py', f'{current_project_name}/settings/base.py', f'{current_project_name}/settings/prod.py',
                            f'{current_project_name}/wsgi/dev.py',
                            f'{current_project_name}/wsgi/prod.py', 'manage.py', 'runserver.sh']
 
